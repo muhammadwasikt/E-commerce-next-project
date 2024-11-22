@@ -2,7 +2,7 @@ import { getProductsReducer } from "./reducers/getProductsReducer";
 
 
 
-const { createStore } = require("redux");
+import { createStore } from 'redux';
 
 
 

@@ -1,5 +1,4 @@
 import Home from "../(pages)/home/page"
-import Footer from "../components/Footer"
 
 const MainPage = () => {
   return (
