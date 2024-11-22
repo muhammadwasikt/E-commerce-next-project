@@ -1,8 +1,8 @@
+import { createStore } from 'redux';
 import { getProductsReducer } from "./reducers/getProductsReducer";
 
 
 
-import { createStore } from 'redux';
 
 
 
