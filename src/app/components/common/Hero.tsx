@@ -1,5 +1,3 @@
-import {SetProducts} from "@/app/store/actions/SetProducts"
-
 
 const heroImage = "./assets/images/hero-img.png"
 const Hero = () => {
@@ -19,7 +17,6 @@ const Hero = () => {
                     src={heroImage}
                     className=" h-[450px] object-fill" />
             </div>
-            <SetProducts />
         </div>
     )
 }
