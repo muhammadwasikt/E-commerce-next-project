@@ -39,7 +39,7 @@ const Card = ({ item, badge }: Obj2) => {
                 </div>
             </> :
                 <div className="card bg-base-100 w-full shadow-xl">
-                    <div className="card-body h-[200px]">
+                    <div className="card-body h-[200px] text-left px-4">
                         <h2>{rating}</h2>
                         <h2 className="card-title">{name}
                             <div className="badge ml-[-5px]">{greate}</div>
