@@ -16,8 +16,10 @@ const SetProducts = () => {
     }
 
     useEffect(()=>{
-        handleSetProducts()
+        return () => handleSetProducts()
     },[])
+
+    return null
 }
 export default SetProducts;
 

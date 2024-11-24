@@ -6,7 +6,7 @@ const initialState = {
     removeCartProducts: [],
     cartTotal: 0,
 }
-export const getProductsReducer = (state=initialState, { type, payload }) => {
+export const getProductsReducer = (state = initialState, { type, payload }) => {
     switch (type) {
         case productTypes.GET_PRODUCTS:
             return {...state, allProducts:[...state.allProducts,...payload]};

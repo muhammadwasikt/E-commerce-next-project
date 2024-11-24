@@ -3,23 +3,22 @@ import BrandName from "@/app/components/common/BrandName"
 import Hero from "@/app/components/common/Hero"
 import Footer from "@/app/components/Footer"
 import Header from "@/app/components/Header"
-import { useSelector } from "react-redux"
 import SetProducts from "@/app/components/common/SetProducts"
+import NewArrivals from "../../components/common/NewArrivals"
+import TopSellingProducts from "@/app/components/common/TopSellingProducts"
+import OverHappyCustomers from "@/app/components/common/OverHappyCustomers"
 
-interface Array {
-  allProducts: []
-}
+
 const Home = () => {
-
-  const data = useSelector((state: Array) => state?.allProducts)
-
-  console.log(data);
   return (
     <div>
       <SetProducts />
       <Header />
       <Hero />
       <BrandName />
+      <NewArrivals />
+      <TopSellingProducts />
+      <OverHappyCustomers />
       <Footer />
     </div>
   )

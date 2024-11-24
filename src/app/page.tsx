@@ -1,13 +1,16 @@
 "use client"
 import MainPage from "./modules/MainPage"
-import {Provider} from 'react-redux'
-import {store} from './store/store'
+import { Provider } from 'react-redux'
+import { persistor, store } from './store/store'
+import { PersistGate } from "redux-persist/integration/react"
 
 const page = () => {
   return (
     <div>
       <Provider store={store}>
-      <MainPage />
+        <PersistGate loading={null} persistor={persistor}>
+          <MainPage />
+        </PersistGate>
       </Provider>
     </div>
   )
