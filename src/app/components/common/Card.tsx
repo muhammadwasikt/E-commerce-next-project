@@ -13,12 +13,12 @@ interface Obj {
 
 interface Obj2 {
     item: Obj,
-    badge: Boolean 
+    badge: boolean 
 }
 
 const Card = ({ item, badge }: Obj2) => {
 
-    const { id, title, price, image, description, rating, greate, name } = item;
+    const { title, price, image, description, rating, greate, name } = item;
     return (
         <div className="card bg-base-100 w-full shadow-xl hover:scale-105 hover:shadow-2xl cursor-pointer">
             {image ? <>

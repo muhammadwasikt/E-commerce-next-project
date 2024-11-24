@@ -14,6 +14,9 @@ interface Obj {
     price: number,
     image: string,
     description: string,
+    rating: string,
+    greate: string,
+    name: string,
 }
 const TopSellingProducts = () => {
     

@@ -6,7 +6,7 @@ import Header from "@/app/components/Header"
 import SetProducts from "@/app/components/common/SetProducts"
 import NewArrivals from "../../components/common/NewArrivals"
 import TopSellingProducts from "@/app/components/common/TopSellingProducts"
-import OverHappyCustomers from "@/app/components/common/OverHappyCustomers"
+import OverHappyCustomers from "@/app/components/common/OverHappyCustomers.jsx"
 
 
 const Home = () => {
