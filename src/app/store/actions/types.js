@@ -1,0 +1,6 @@
+export const productTypes = {
+    GET_PRODUCTS: 'GET_PRODUCTS',
+    ADD_PRODUCTS: 'ADD_PRODUCTS',
+    REMOVE_CART_PRODUCTS: 'REMOVE_CART_PRODUCTS',
+    COUNT: 'COUNT',
+}
