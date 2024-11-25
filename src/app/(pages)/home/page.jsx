@@ -1,3 +1,4 @@
+'use client'
 import BrandName from "../../components/common/BrandName.jsx"
 import Hero from "../../components/common/Hero.jsx"
 import Footer from "../../components/Footer.jsx"
